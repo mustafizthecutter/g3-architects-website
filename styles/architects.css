@@ -1,0 +1,10 @@
+/* work sans fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@200;500;700&family=Roboto:wght@500&family=Secular+One&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
