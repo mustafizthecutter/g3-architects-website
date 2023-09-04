@@ -10,11 +10,6 @@
     margin: 0;
 }
 
-main {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 /* shared styles */
 .btn-primary {
     border-radius: 8px;
@@ -92,10 +87,17 @@ nav li a {
     margin-top: 50px;
 }
 
+/* main styles start */
+main {
+    max-width: 1440px;
+    margin: 70px auto;
+}
+
 /* teams section start */
 .teams-container {
     display: flex;
     align-items: center;
+
 }
 
 .teams-img-container {
@@ -106,7 +108,7 @@ nav li a {
 
 .teams-content {
     padding-left: 75px;
-    padding-right: 75px;
+    /* padding-right: 75px; */
 }
 
 .teams-title {
@@ -150,8 +152,17 @@ nav li a {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
+    }
+
+    .teams-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content {
+        padding-left: 20px;
     }
 }
 
@@ -164,5 +175,10 @@ nav li a {
 
     nav {
         flex-direction: column;
+
+    }
+
+    .teams-container {
+        flex-direction: column-reverse;
     }
 }
