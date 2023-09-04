@@ -153,16 +153,25 @@ main {
 }
 
 .features-title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .features-description {
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 
 .features .section-title {
     border-left: 5px solid #FF900E;
     padding-left: 22px;
+}
+
+.card-heading {
+    margin-bottom: 10px;
+}
+
+.features-img img {
+    height: 85%;
+    margin-left: 90px;
 }
 
 .ten-years-badge {
@@ -171,6 +180,10 @@ main {
     color: #FFF;
     width: 342px;
     padding: 45px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+
 }
 
 .ten-years-badge h2 {
@@ -234,6 +247,22 @@ main {
 .sponsors-img-container img {
     width: 165px;
     height: 50px;
+}
+
+/* footer styles here */
+.footer {
+    border-radius: 8px;
+    background-color: #FFF4E7;
+    margin: 90px 240px 212px 240px;
+    padding: 40px 410px;
+    text-align: center;
+
+}
+
+.footer-description {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 /* responsive styles */
